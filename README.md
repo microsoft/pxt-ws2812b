@@ -8,6 +8,16 @@ The package exposes ``ws2812.sendBuffer`` that bit-bangs a color buffer for WS28
 
 See https://github.com/Microsoft/pxt-neopixel for an example of usage.
 
+## ~ hint
+ 
+**Bluetooth disabled**: This package disables BLE as the real time requirements of the WS2812 conflict with the BLE stack.
+
+## ~
+
+## Simulator support
+
+The ``sendBuffer`` function is supported by the micro:bit simulator!
+
 ## License
 
 MIT
