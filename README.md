@@ -1,4 +1,4 @@
-# ws2812
+# ws2812 [![Build Status](https://travis-ci.org/Microsoft/pxt-ws2812.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-ws2812)
 
 A driver for WS2812 programmable LEDs in MakeCode.
 
