@@ -1,6 +1,6 @@
 {
     "name": "ws2812",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A driver for WS2812 programmable LEDs in MakeCode",
     "license": "MIT",
     "dependencies": {
