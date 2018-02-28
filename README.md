@@ -1,10 +1,10 @@
 # ws2812 [![Build Status](https://travis-ci.org/Microsoft/pxt-ws2812.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-ws2812)
 
-A driver for WS2812 programmable LEDs in MakeCode.
+A driver for WS2812B programmable LEDs in MakeCode.
 
 ## Usage
 
-The package exposes ``ws2812.sendBuffer`` that bit-bangs a color buffer for WS2812 LEDs over a pin.
+The package exposes ``ws2812b.sendBuffer`` that bit-bangs a color buffer for WS2812B LEDs over a pin.
 
 See https://github.com/Microsoft/pxt-neopixel for an example of usage.
 
