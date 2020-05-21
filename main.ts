@@ -4,7 +4,7 @@ namespace ws2812b {
     }
 
     //% shim=setBufferMode
-    export function setMode(pin: DigitalPin, mode: number) {
+    export function setBufferMode(pin: DigitalPin, mode: number) {
 
     }
 }
