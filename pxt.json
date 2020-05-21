@@ -9,9 +9,17 @@
     "files": [
         "README.md",
         "main.ts",
-        "sendBuffer.asm"
+        "sendBuffer.asm",
+        "setBufferMode.asm"
     ],
-    "testFiles": [],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
     "yotta": {
         "config": {
             "microbit-dal": {
@@ -20,6 +28,5 @@
                 }
             }
         }
-    },
-    "public": true
+    }
 }
