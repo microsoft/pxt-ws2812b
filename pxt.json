@@ -12,7 +12,9 @@
         "sendBuffer.asm",
         "setBufferMode.asm"
     ],
-    "testFiles": [],
+    "testFiles": [
+        "test.ts"
+    ],
     "public": true,
     "supportedTargets": [
         "microbit"
