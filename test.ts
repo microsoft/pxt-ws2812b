@@ -4,5 +4,5 @@
 #define LIGHTMODE_RGB_RGB 3
 #define LIGHTMODE_DOTSTAR 4
  */
+ws2812b.setMode(DigitalPin.P0, 1)
 ws2812b.sendBuffer(hex`ff0000 00ff00 0000ff`, DigitalPin.P0)
-//ws2812b.setMode(DigitalPin.P0, 1)
