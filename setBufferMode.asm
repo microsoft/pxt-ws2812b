@@ -1,2 +1,2 @@
 setBufferMode:
-    
+    bx lr
