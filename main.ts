@@ -1,9 +1,9 @@
 namespace ws2812b {
-    //% shim=sendBufferAsm
+    //% shim=light::sendWS2812Buffer
     export function sendBuffer(buf: Buffer, pin: DigitalPin) {
     }
 
-    //% shim=setBufferMode
+    //% shim=light::setMode
     export function setBufferMode(pin: DigitalPin, mode: number) {
 
     }
