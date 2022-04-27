@@ -22,6 +22,6 @@ jobs:
           npm install -g makecode
       - name: build
         run: |
-          mkc
+          makecode
         env:
           CI: true
